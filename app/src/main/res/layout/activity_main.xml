@@ -10,10 +10,12 @@
         android:id="@+id/tv_main_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
-        android:layout_marginEnd="164dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="168dp"
         android:text="Hello World!"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="@+id/btn_ambil_nama"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -21,19 +23,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
-        android:layout_marginBottom="404dp"
+        android:layout_marginTop="30dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:text="Name"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_main_activity" />
 
     <Button
         android:id="@+id/btn_ambil_nama"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="156dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,10 +45,50 @@
         android:id="@+id/btn_help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
         android:text="Help"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_ambil_nama" />
+
+    <Button
+        android:id="@+id/btn_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:text="Linear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
+
+    <Button
+        android:id="@+id/btn_constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Constraint"
+        app:layout_constraintStart_toEndOf="@+id/btn_linear"
+        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
+
+    <Button
+        android:id="@+id/btn_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Table"
+        app:layout_constraintStart_toEndOf="@+id/btn_constraint"
+        app:layout_constraintTop_toBottomOf="@+id/btn_help" />
+
+    <Button
+        android:id="@+id/btn_protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="156dp"
+        android:text="Protein"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_constraint" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

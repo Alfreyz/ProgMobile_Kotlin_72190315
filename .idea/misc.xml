@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_constraint.xml" value="0.2754782700075322" />
         <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_help.xml" value="0.2086956590966153" />
-        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_main.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_main.xml" value="0.2086956590966153" />
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_protein_tracker.xml" value="0.4173913181932306" />
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_table.xml" value="0.2754782700075322" />
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/activity_tes_linear.xml" value="0.2786458333333333" />
+        <entry key="..\:/Users/SDali/AndroidStudioProjects/ProgMobile_Kotlin_72190315/app/src/main/res/layout/tes_linear.xml" value="0.135258358662614" />
       </map>
     </option>
   </component>

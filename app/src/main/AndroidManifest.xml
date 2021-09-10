@@ -10,9 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
         <activity
+            android:name=".ProteinTrackerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="true"
+            android:label="Test Table" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true"
+            android:label="Test Constraint" />
+        <activity
+            android:name=".LinearActivity"
+            android:exported="true"
+            android:label="Test Linear" />
+        <activity
             android:name=".HelpActivity"
             android:exported="true"
-            android:label="Help Activity"/>
+            android:label="Help Activity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
