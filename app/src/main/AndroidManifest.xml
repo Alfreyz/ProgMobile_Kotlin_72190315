@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
+
+        <activity
+            android:name=".DutaTani"
+            android:exported="true"
+            android:label="Dutatani"
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315.noActionBar.">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
         <activity
             android:name=".ProteinTrackerActivity"
             android:exported="true" />
@@ -32,11 +44,6 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="Main Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
