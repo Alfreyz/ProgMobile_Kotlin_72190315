@@ -9,18 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
+        <activity
+            android:name=".DaftarLahanPetani"
+            android:exported="true"
+            android:theme="@style/Theme.DaftarLahanPetani">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SampleListView"
+            android:exported="true" />
+        <activity
+            android:name=".SampleList"
+            android:exported="true"
+            android:label="Sample List"
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315" />
         <activity
             android:name=".DutaTani"
             android:exported="true"
             android:label="Dutatani"
-            android:theme="@style/Theme.ProgMobile_Kotlin_72190315.noActionBar.">
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/Theme.dutatani"/>
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-    </activity>
         <activity
             android:name=".ProteinTrackerActivity"
             android:exported="true" />
@@ -43,8 +55,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Main Activity">
-        </activity>
+            android:label="Main Activity" />
     </application>
 
 </manifest>

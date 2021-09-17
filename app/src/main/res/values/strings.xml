@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">ProgMobileKotlin72190315</string>
     <string name="text_progmob_main">Halo Progmob</string>
+    <string name="lahan_name">lahan name</string>
+    <string name="description">description</string>
+
 </resources>
