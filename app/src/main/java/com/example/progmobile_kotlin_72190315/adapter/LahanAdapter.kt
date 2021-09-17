@@ -1,4 +1,4 @@
-package com.example.progmobile_kotlin_72190315
+package com.example.progmobile_kotlin_72190315.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,6 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
+import com.example.progmobile_kotlin_72190315.R
+import com.example.progmobile_kotlin_72190315.model.Lahan
 
 class LahanAdapter internal constructor(private val context: Context) : BaseAdapter(){
     internal var lahans = arrayListOf<Lahan>()

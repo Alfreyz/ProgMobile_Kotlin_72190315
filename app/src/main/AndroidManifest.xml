@@ -10,29 +10,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
         <activity
-            android:name=".DaftarLahanPetani"
+            android:name=".SampleRecyclerView"
             android:exported="true"
-            android:theme="@style/Theme.DaftarLahanPetani">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315"/>
         <activity
             android:name=".SampleListView"
-            android:exported="true" />
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315"/>
         <activity
             android:name=".SampleList"
             android:exported="true"
-            android:label="Sample List"
-            android:theme="@style/Theme.ProgMobile_Kotlin_72190315" />
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".DaftarLahanPetani"
+            android:exported="true"
+            android:theme="@style/Theme.DaftarLahanPetani"/>
         <activity
             android:name=".DutaTani"
             android:exported="true"
             android:label="Dutatani"
-            android:theme="@style/Theme.dutatani"/>
-
+            android:theme="@style/Theme.dutatani" />
         <activity
             android:name=".ProteinTrackerActivity"
             android:exported="true" />

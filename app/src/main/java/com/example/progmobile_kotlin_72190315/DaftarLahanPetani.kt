@@ -1,19 +1,11 @@
 package com.example.progmobile_kotlin_72190315
 
-import android.graphics.Typeface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.SpannableString
-import android.text.SpannableStringBuilder
-import android.text.Spanned
-import android.text.style.StyleSpan
-import android.view.Window
 import android.view.WindowManager
 import android.widget.*
-import androidx.core.content.res.TypedArrayUtils
-import androidx.core.text.bold
-import androidx.core.text.buildSpannedString
-import androidx.core.text.htmlEncode
+import com.example.progmobile_kotlin_72190315.adapter.LahanAdapter
+import com.example.progmobile_kotlin_72190315.model.Lahan
 import com.google.android.material.snackbar.Snackbar
 
 class DaftarLahanPetani : AppCompatActivity() {
