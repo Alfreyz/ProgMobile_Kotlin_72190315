@@ -26,17 +26,17 @@
             android:name=".SampleList"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
+            android:theme="@style/Theme.ProgMobile_Kotlin_72190315"/>
+        <activity
+            android:name=".DaftarLahanPetani"
+            android:exported="true"
+            android:theme="@style/Theme.DaftarLahanPetani" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DaftarLahanPetani"
-            android:exported="true"
-            android:theme="@style/Theme.DaftarLahanPetani" />
         <activity
             android:name=".DutaTani"
             android:exported="true"

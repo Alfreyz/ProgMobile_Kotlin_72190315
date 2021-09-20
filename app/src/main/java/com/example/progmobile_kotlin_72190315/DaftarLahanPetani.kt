@@ -13,17 +13,17 @@ class DaftarLahanPetani : AppCompatActivity() {
     private var lahans = arrayListOf<Lahan>()
 
     private var names = arrayOf(
-        "Testing 1",
-        "Testing 2",
-        "Testing 3",
-        "Testing 4"
+        "abdulrohma",
+        "abuwiyono",
+        "adiprajitn",
+        "adipranot2"
     )
 
     private var descriptions = arrayOf(
-        "Nama : Number 1 \nTotal Jumlah Lahan : 1 \nJumlah Lahan yang sudah teridentifikasi : 0 \nLahan yang bisa ditambahkan : 0",
-        "Nama : Number 2 \nTotal Jumlah Lahan : 1 \nJumlah Lahan yang sudah terindetifikasi : 1 \nLahan yang bisa ditambahkan : 1",
-        "Nama : Number 3 \nTotal Jumlah Lahan : 3 \nJumlah Lahan yang sudah teridentifikasi : 3 \nLahan yang bisa ditambahkan : 0",
-        "Nama : Number 4 \nTotal Jumlah Lahan : 2 \nJumlah Lahan yang sudah terindetifikasi : 2 \nLahan yang bisa ditambahkan : 1"
+        "Nama : Abdul Rohman \nTotal Jumlah Lahan : 1 \nJumlah Lahan yang sudah teridentifikasi : 0 \nLahan yang bisa ditambahkan : 1",
+        "Nama : Abuwiyono / Sukri \nTotal Jumlah Lahan : 1 \nJumlah Lahan yang sudah terindetifikasi : 1 \nLahan yang bisa ditambahkan : 0",
+        "Nama : Adi Prajitno \nTotal Jumlah Lahan : 3 \nJumlah Lahan yang sudah teridentifikasi : 0 \nLahan yang bisa ditambahkan : 3",
+        "Nama : Adi Pranoto \nTotal Jumlah Lahan : 3 \nJumlah Lahan yang sudah terindetifikasi : 2 \nLahan yang bisa ditambahkan : 1"
     )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
