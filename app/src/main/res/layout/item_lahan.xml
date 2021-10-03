@@ -12,7 +12,7 @@
         android:layout_marginStart="26dp"
         android:text="@string/lahan_name"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tv_description"
