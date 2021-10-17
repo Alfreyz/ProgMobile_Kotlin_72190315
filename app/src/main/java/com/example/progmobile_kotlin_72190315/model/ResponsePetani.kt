@@ -14,32 +14,32 @@ data class ResponsePetani(
 data class DataItem(
 
 	@field:SerializedName("provinsi")
-	val provinsi: String? = null,
+	var provinsi: String? = null,
 
 	@field:SerializedName("nama")
-	val nama: String? = null,
+	var nama: String? = null,
 
 	@field:SerializedName("foto")
-	val foto: String? = null,
+	var foto: String? = null,
 
 	@field:SerializedName("kecamatan")
-	val kecamatan: String? = null,
+	var kecamatan: String? = null,
 
 	@field:SerializedName("nama_istri")
-	val namaIstri: String? = null,
+	var namaIstri: String? = null,
 
 	@field:SerializedName("id")
-	val id: String? = null,
+	var id: String? = null,
 
 	@field:SerializedName("jumlah_lahan")
-	val jumlahLahan: String? = null,
+	var jumlahLahan: String? = null,
 
 	@field:SerializedName("kabupaten")
-	val kabupaten: String? = null,
+	var kabupaten: String? = null,
 
 	@field:SerializedName("kelurahan")
-	val kelurahan: String? = null,
+	var kelurahan: String? = null,
 
 	@field:SerializedName("alamat")
-	val alamat: String? = null
+	var alamat: String? = null
 )

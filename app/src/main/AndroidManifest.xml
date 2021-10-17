@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
         <activity
+            android:name=".CRUD.UpdatePetaniActivity"
+            android:exported="true" />
+        <activity
             android:name=".CRUD.AddPetaniActivity"
             android:exported="true" />
         <activity
@@ -23,7 +26,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".GetAPIActivity"
             android:exported="true" />

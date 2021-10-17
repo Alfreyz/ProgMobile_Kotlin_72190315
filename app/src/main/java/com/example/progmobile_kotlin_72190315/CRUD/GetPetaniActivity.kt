@@ -1,11 +1,14 @@
 package com.example.progmobile_kotlin_72190315.CRUD
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.progmobile_kotlin_72190315.R
+import com.example.progmobile_kotlin_72190315.SampleListView
 import com.example.progmobile_kotlin_72190315.adapter.ResponsePetaniAdapater
 import com.example.progmobile_kotlin_72190315.model.DataItem
 import com.example.progmobile_kotlin_72190315.model.ResponsePetani
@@ -40,5 +43,9 @@ class GetPetaniActivity : AppCompatActivity() {
                         }
                     }
                 })
-          }
+        fabaddpetani.setOnClickListener(View.OnClickListener { view ->
+            var intent = Intent(this@GetPetaniActivity, AddPetaniActivity::class.java)
+            startActivity(intent)
+        })
+        }
     }
