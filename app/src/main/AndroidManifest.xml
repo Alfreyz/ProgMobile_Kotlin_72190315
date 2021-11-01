@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProgMobile_Kotlin_72190315">
         <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
             android:name=".CRUD.UpdatePetaniActivity"
             android:exported="true" />
         <activity
@@ -19,13 +28,8 @@
             android:exported="true" />
         <activity
             android:name=".CRUD.GetPetaniActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:label="@+id/edEmail"
+            android:exported="true"/>
         <activity
             android:name=".GetAPIActivity"
             android:exported="true" />
